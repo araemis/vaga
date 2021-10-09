@@ -1,17 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
     </head>
 <body >
     <form action="" method="post">
-        
     <fieldset>
-        <legend><h3>Vagas de emprego para regime home office ou presensial, em Santa Catarina, para diversos setores </h3></legend>
+        <legend><h3>A empresa <abbr title="setoriel.com, é uma empresa séria que ha vários anos vem atuando em diversos setores.">setoriel.com</abbr> oferece vagas de emprego para regime home office ou presensial, em Santa Catarina, para diversos setores </h3></legend>
         <p>
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome" placeholder="digite seu nome" required>
@@ -25,6 +24,7 @@
         <input type="email" name="email" id="email" placeholder="digite seu email" id="email" required>
     </p>
     <p>
+        <label for="sexo">sexo:</label>
         <input type="radio" name="sexo"value="M">Masculino
         <input type="radio" name="sexo"value="F">Feminino<br>
     </p>
@@ -52,16 +52,13 @@
             <option value="ALFREDO WAGNER">
             <option value="ALTO BELA VISTA">
         </datalist></p>
-        <label for="vagas">cargos:</label>
-        <select name="vagas" id="vagas">
-            
-            <option value="med">médico</option>
-            <option value="eng">engenheiro eletrico</option>
-            <option value="por">porteiro</option>
-            <option value="coz">chefe de cozinheiro</option>
-            <option value="sec">secretária</option>
-            <option value="ger">gerente</option>
-        </select>
+        <label for="vaga">vaga:</label>
+        <input type="radio" name="vaga"value="med"><abbr title="total de 3 vagas, escolaridade mínima nível superior, salario inicial R$ 7000,00">médico</abbr>
+        <input type="radio" name="vaga"value="eng"><abbr title="total de 5 vagas, escolaridade mínima nível superior, salario inicial R$ 3500,00">engenheiro eletrico</abbr>
+        <input type="radio" name="vaga"value="por"><abbr title="total de 2 vagas, escolaridade mínima nível fundamental, salario inicial R$ 1500">porteiro</abbr>
+        <input type="radio" name="vaga"value="coz"><abbr title="total de 6 vagas, escolaridade mínima nível médio, salario inicial R$ 2000,00">chefe de cozinheiro</abbr>
+        <input type="radio" name="vaga"value="sec"><abbr title="total de 3 vagas, escolaridade mínima nível médio, salario inicial R$ 1800,00">secretária</abbr>
+        <input type="radio" name="vaga"value="ger"><abbr title="total de 1 vagas, escolaridade mínima nível superior, salario inicial R$ 3000,00">gerente</abbr>
         <p><label for="resumo">Opcional</label><br>
         <textarea name="resumo" id="resumo" cols="100" rows="10" placeholder="Nos conte um bre resumo sobre a sua jornada."></textarea></p>
         <p>
