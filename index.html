@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    </head>
+<body >
+    <form action="" method="post">
+        
+    <fieldset>
+        <legend><h3>Vagas de emprego para regime home office ou presensial, em Santa Catarina, para diversos setores </h3></legend>
+        <p>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="digite seu nome" required>
+    </p>
+    <p>
+        <label for="data">Data de nascimento:</label>
+        <input type="date" name="data" id="data" required>
+    </p>
+    <p>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" placeholder="digite seu email" id="email" required>
+    </p>
+    <p>
+        <input type="radio" name="sexo"value="M">Masculino
+        <input type="radio" name="sexo"value="F">Feminino<br>
+    </p>
+    <p>
+        <label for="phone">Fixo:</label>
+        <input type="tel" name="phone" id="phone" placeholder="(00)0000-0000" required>
+    </p>
+    <p>
+        <label for="tel">Celular:</label>
+        <input type="tel" name="tel" id="tel" placeholder="(00)00000-0000" required>
+    </p>
+    <p>
+        <label for="cidade">Cidade:</label>
+        <input list="cidade" name="cidade" placeholder="Selecione a sua cidade atual" required>
+        <p><datalist id="cidade">
+            <option value="RIO DO SUL">
+            <option value="BLUMENAU">
+            <option value="ABELARDO LUZ">
+            <option value="AGROLANDIA">
+            <option value="AGRONOMICA">
+            <option value="AGUA DOCE">
+            <option value="AGUA DE CHAPECO">
+            <option value="AGUAS FRIAS">
+            <option value="AGUAS MORNAS">
+            <option value="ALFREDO WAGNER">
+            <option value="ALTO BELA VISTA">
+        </datalist></p>
+        <label for="vagas">cargos:</label>
+        <select name="vagas" id="vagas">
+            
+            <option value="med">médico</option>
+            <option value="eng">engenheiro eletrico</option>
+            <option value="por">porteiro</option>
+            <option value="coz">chefe de cozinheiro</option>
+            <option value="sec">secretária</option>
+            <option value="ger">gerente</option>
+        </select>
+        <p><label for="resumo">Opcional</label><br>
+        <textarea name="resumo" id="resumo" cols="100" rows="10" placeholder="Nos conte um bre resumo sobre a sua jornada."></textarea></p>
+        <p>
+            <label for="arquivo">Curriculo:</label>
+            <input type="file" name="arquivo"  id="arquivo">
+        </p>
+        <label for="enviar"></label>
+        <input type="submit" name="enviar" id="enviar" value="enviar">
+    </p>
+    </fieldset>
+    </form>
+</body>
+</html>
